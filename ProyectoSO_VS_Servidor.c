@@ -101,7 +101,7 @@ int main(int argc, char *argv[])
 				strcpy (jugador, p);
 
 				p = strtok( NULL, "/");
-				strcpy (partida, p);
+				partida = atoi (p);
 
 				printf ("Codigo: %d, Nombre: %s\n", codigo, nombre);
 			}
